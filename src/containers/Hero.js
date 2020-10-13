@@ -21,14 +21,14 @@ function Hero() {
             </div>
             <div className={"flex-one"}>
                 <div className={"icons-container"}>
-                    <div className={"icon"}><FontAwesomeIcon icon={faGithub} /></div>
-                    <div className={"icon"}><FontAwesomeIcon icon={faLinkedin} /></div>
+                    <div className={"icon"}><a href={"https://github.com/EricPJobe"}><FontAwesomeIcon icon={faGithub} /></a></div>
+                    <div className={"icon"}><a href={"https://www.linkedin.com/in/ericpjobe"}><FontAwesomeIcon icon={faLinkedin} /></a></div>
                 </div>
             </div>
             <div className={"flex-one"}>
                 <div className={"resume-button"}>
                     <div className={"download-icon"}><FontAwesomeIcon icon={faDownload} /></div>
-                    <div><p>Download Resume</p></div>
+                    <div><a href={"https://s3.amazonaws.com/ericjobe.me/Eric_Jobe_Resume.PDF"} download target="_blank">Download Resume</a></div>
                 </div>
             </div>
             <div className={"flex-one"}> </div>

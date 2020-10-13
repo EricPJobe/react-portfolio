@@ -5,7 +5,9 @@
     margin: 10px;
 }
 
-.project-container {
+.gnt-container {
+    display: flex;
+    justify-content: center;
     background: rgba(0, 0, 0, 0.5);
     width: 650px;
     border-radius: 15px;
@@ -15,7 +17,6 @@
 
 .link {
     color: rgba(45,210,253,1);
-    cursor: pointer;
 }
 
 .projects-group {
@@ -67,3 +68,9 @@ ul {
 li {
     padding: 2em;
 }
+
+.image {
+    padding: 5em 10em 0 10em;
+    margin: 20px;
+}
+

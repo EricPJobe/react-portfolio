@@ -1,8 +1,6 @@
 import React from 'react';
 import './About.css';
 import '../structure.css';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-
 
 function About() {
     return (
@@ -29,7 +27,7 @@ function About() {
                 <p className={"paragraph-break"}> </p>
                 <p className={"text"}>As a programmer, I have developed professional expertise in Angular and React front-end
                 application development with 2½ years of experience in the enterprise. Other technologies
-                I have experience with are C/C++, Typescript, Oracle, Haskell, Node.js/Express, D3.js,
+                I have experience with are C/C++, Typescript, Oracle, PostgreSQL, GraphQL, Apollo, Haskell, Node.js/Express, D3.js,
                 Bootstrap, Angular Material Design, Ionic, Go, Python, AWS serverless architecture, and Linux.
                 I am currently developing experience with React Native, GraphQL/Apollo, Scala, Clojure, and Rust</p>
             </div>

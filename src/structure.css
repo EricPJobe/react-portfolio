@@ -18,3 +18,11 @@
 .v-center {
     align-items: center;
 }
+
+.flex-one {
+    flex: 1;
+}
+
+.paragraph-break {
+    margin-top: 10px;
+}
